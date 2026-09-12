@@ -1,0 +1,23 @@
+/* 
+  Variables globales de diseño para Art-Maker
+  Basadas en la paleta y tipografías definidas en el documento de mockups
+*/
+
+:root {
+  /* Colores de fondo */
+  --color-fondo: #151D35;
+  --color-navbar-footer: #1E2847;
+
+  /* Colores de marca */
+  --color-primario: #6B3FA0;
+  --color-acento: #E8356D;
+
+  /* Colores de texto */
+  --color-texto-principal: #1A1A1A;
+  --color-texto-secundario: #6B7280;
+  --color-texto-claro: #FFFFFF;
+
+  /* Tipografías */
+  --font-titulo: 'DM Serif Display', serif;
+  --font-cuerpo: 'DM Sans', sans-serif;
+}
