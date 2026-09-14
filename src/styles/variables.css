@@ -1,23 +1,25 @@
+@import "tailwindcss";
+
 /* 
-  Variables globales de diseño para Art-Maker
-  Basadas en la paleta y tipografías definidas en el documento de mockups
+  Tema personalizado de Art-Maker.
+  Define la paleta de colores y tipografias del diseño aprobado,
+  disponibles como clases de Tailwind
 */
+@theme {
+  --color-navy: #151D35;
+  --color-navylt: #1E2847;
+  --color-purple: #6B3FA0;
+  --color-purplt: #8B5CC7;
+  --color-violet: #9B8FD4;
+  --color-violetlt: #B3ACDF;
+  --color-pink: #E8356D;
+  --color-pinklt: #FF6B9D;
 
-:root {
-  /* Colores de fondo */
-  --color-fondo: #151D35;
-  --color-navbar-footer: #1E2847;
+  --font-serif: "DM Serif Display", serif;
+  --font-sans: "DM Sans", sans-serif;
+}
 
-  /* Colores de marca */
-  --color-primario: #6B3FA0;
-  --color-acento: #E8356D;
-
-  /* Colores de texto */
-  --color-texto-principal: #1A1A1A;
-  --color-texto-secundario: #6B7280;
-  --color-texto-claro: #FFFFFF;
-
-  /* Tipografías */
-  --font-titulo: 'DM Serif Display', serif;
-  --font-cuerpo: 'DM Sans', sans-serif;
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-navy);
 }
